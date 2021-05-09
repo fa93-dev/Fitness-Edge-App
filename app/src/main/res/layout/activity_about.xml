@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+            <com.github.florent37.arclayout.ArcLayout
+                android:id="@+id/diagonalLayout"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:elevation="10dip"
+                app:arc_cropDirection="cropInside"
+                app:arc_position="bottom"
+                app:arc_height="40dp"
+                >
+
+                <com.flaviofaria.kenburnsview.KenBurnsView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gym"
+                    />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:text="Fitness Edge"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/head" />
+
+
+            </com.github.florent37.arclayout.ArcLayout>
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" FITNESS EDGE Gym and Spaembarks on a mission to raise the level of fitness and wellness by providing students and faculties with the industry's best cardiovascular and strength equipment in the campus, by uprooting their misconceptions regarding health, exercise and fitness through dissemination of scientific research done in this field and creating a major attitudinal change in their lifestyles.  "
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/sub" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Why Choose Fitness Edge?"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/head1" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:text="Spacious, state of the art fitnessclub spread over more than 15000 sq. feet area which is equipped with world class latest exercise equipment from cybex U.S.A i.e superior in biomechanics and has shock absorbers technique to offer you safe operations, functionality and better results. We provide complete solution to your problem: Weight loss, Weight Gain, General fitness etc. Our one mission is to motivate people to become and stay active and realize their full potential. An active lifestyle can prevent the development of a myriad of health problems including heart diseases, obesity, diabetes, osteoporosis and other severe and crippling ailments. Moreover, regular activity reduces absenteeism, increases morale and productivity, fights rising health care costs through preventive health care and maintenance.Highly qualified certified fitness instructor and personal trainer, certified group exercise instructor and a physiotherapist, will be assisting you to hit the floor and a nutritionist will be providing you with diet plans to achieve your potentials sooner."
+            android:textStyle="normal|bold"
+            android:id="@+id/sub1"></TextView>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "400895713686",
+    "firebase_url": "https://fitnessedge-ae8fd.firebaseio.com",
+    "project_id": "fitnessedge-ae8fd",
+    "storage_bucket": "fitnessedge-ae8fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400895713686:android:9dcc847a1854e472",
+        "android_client_info": {
+          "package_name": "com.example.faraz.navigationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400895713686-id68sf74mije1qbrvj9tvf8f2p77dugv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5TjF_whkmq-6EiiY4UrZYG5kLIXNSfOU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

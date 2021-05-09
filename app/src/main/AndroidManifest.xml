@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.faraz.navigationapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PedometerActivity" />
+        <activity android:name=".StatsActivity" />
+        <activity android:name=".DietChart" />
+        <activity android:name=".WorkCal" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".finalcalc" />
+        <activity
+            android:name=".Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WorkoutListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WorkoutCountdownActivity"
+            android:parentActivityName=".WorkoutListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".WorkoutListActivity" />
+        <activity
+            android:name=".WorkoutDetailActivity"
+            android:parentActivityName=".WorkoutListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:value=".WorkoutListActivity" />
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="b8ca5f72310e5ad99130d73c9c7271e55612a8d6" />
+
+        <activity android:name=".Body.ect" />
+        <activity android:name=".Body.end" />
+        <activity android:name=".Body.mes" />
+        <activity android:name=".HealthCalc.Bmr" />
+        <activity android:name=".HealthCalc.Bmi" />
+        <activity android:name=".HealthCalc.MacroNutri" />
+        <activity android:name=".HealthCalc.CalcIntake" />
+        <activity android:name=".HealthCalc.maleFat" />
+        <activity android:name=".caloriecounter.Main3Activity" />
+        <activity android:name=".caloriecounter.AddNewEntryActivity" />
+        <activity android:name=".caloriecounter.DisplayLogActivity" />
+        <activity android:name=".SupUs" />
+        <activity android:name=".About" />
+        <activity android:name=".Contact" />
+        <activity android:name=".AboutApp" />
+        <activity android:name=".HealthCalc.femFat" />
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

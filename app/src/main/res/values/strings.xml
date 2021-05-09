@@ -1,0 +1,334 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Fitness Edge</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_start_workout">Start workout</string>
+    <!-- Workout texts -->
+    <string name="get_ready">Get Ready</string>
+    <string name="rest">Rest</string>
+    <string name="finished">You finished the workout!</string>
+
+    <!-- Spinners stuff -->
+
+    <string-array name="gender">
+        <item id="maleid">Male</item>
+        <item id="femaleid">Female</item>
+    </string-array>
+
+    <string name="menu_settings">Settings</string>
+    <string name="total_cals">Total calorie consumption:</string>
+    <string name="average_cals">Average calorie consumption per day:</string>
+    <string name="total_time">Total overall consumption time:</string>
+    <string name="log_button">View Calorie Log</string>
+    <string name="title_activity_display_log">Calorie Log</string>
+    <string name="add_new_log_entry">Add new entry</string>
+    <string name="title_activity_add_new_entry">New Calorie Log Entry</string>
+    <string name="date">Date:</string>
+    <string name="description">Description:</string>
+    <string name="total_calories">Total calories:</string>
+    <string name="calories_per_weight">Calories per weight/volume/serving:</string>
+    <string name="per_weight">Per weight/volume/serving:</string>
+    <string name="total_weight_consumed">Total weight/volume/serving consumed:</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="hint_total_weight">i.e. 200g</string>
+    <string name="hint_per_weight">i.e. 65g</string>
+    <string name="hint_cal_per_weight">i.e. 220 Cal</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="back_button">Back</string>
+    <string name="quit_button">Quit</string>
+    <string name="remove_list_item">x</string>
+
+    <string name="about_part1">Fitness Edge App allows you check various activities. App has features like step counter to calculate your daily steps. Various health calculators to check your daily needs and also guides to various exercises.</string>
+    <string name="about_part2">Remember to always check with your doctor before exercising and seek professional help to ensure correct form of the exercises.</string>
+    <string name="about_part3">The workout videos from Youtube remain the owner\'s, please support them because they do amazing work making them available.</string>
+    <string name="about_part4">Permissions Required: Internet. Step Counter is not supported on all android phones. Please check your phone specification before use.</string>
+    <string name="about_part5">This application requires the internet in order to play Youtube videos that describe each exercise. (The Youtube application needs to be installed in order to view these videos)</string>
+    <string name="about_part6">This application requires the internet in order to use Crashlytics to collect data when and only when the application crashes. The data collected will help to identify the cause of the crash.</string>
+
+
+    <!--Other string resources also defined in this file… -->
+
+    <string name="feedbacktype1">--Options--</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+    <string name="feedbacktype5">Praise</string>
+
+
+    <string name="action_set">Settings</string>
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">android.hardware.sensor.stepdetector</string>
+    <string name="stats_button">Stats</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="steps_left_text">more steps left until 10,000 steps!</string>
+
+    <string name="act_settings">Settings</string>
+    <string name="height_feet">Height (feet only)</string>
+    <string name="height_inches">Height (Inches)</string>
+    <string name="weight_pounds">Weight (lbs)</string>
+    <string name="go_button">Go</string>
+
+    <string name="bmiLogo">Body Mass Index Calculator</string>
+    <string name="bmrLogo">Base Metabolic Rate Calculator</string>
+    <string name="bodyFatLogo">Body Fat Percentage Calculator</string>
+    <string name="macrosLogo">Macros Calculator</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <string name="units">Units:</string>
+    <string name="height">Height:</string>
+    <string name="inches">Inches</string>
+    <string name="cm">Centimeters</string>
+    <string name="weight">Weight:</string>
+    <string name="pounds">Pounds</string>
+    <string name="kg">Kilograms</string>
+    <string name="calculate">Calculate</string>
+    <string name="sex">Sex:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age:</string>
+    <string name="years">Years Old</string>
+    <string name="waistLogo">Waist Circumference:</string>
+    <string name="wristLogo">Wrist Circumference:</string>
+    <string name="hipLogo">Hip Circumference:</string>
+    <string name="forearmLogo">Forearm Circumference:</string>
+
+    <string name="edit_message">0</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="calories_burned">Calories Burned</string>
+    <string name="disclaimer">**All calculations are based on data for a 150lb adult.</string>
+    <string name="instructions">Select an exercise and enter the quantity (in reps or minutes) to calculate the number of calories burned or select \"Calorie Target\" and enter the number of calories you would like to burn for the necessary quantity for each exercise.</string>
+    <string-array name="exercise_array">
+        <item>Pushup (reps)</item>
+        <item>Situp (reps)</item>
+        <item>Squats (reps)</item>
+        <item>Pullup (reps)</item>
+        <item>Leg-lift (minutes)</item>
+        <item>Plank (minutes)</item>
+        <item>Jumping Jacks (minutes)</item>
+        <item>Cycling (minutes)</item>
+        <item>Walking (minutes)</item>
+        <item>Jogging (minutes)</item>
+        <item>Swimming (minutes)</item>
+        <item>Stair-Climbing (minutes)</item>
+        <item>Calorie Target</item>
+    </string-array>
+
+    <!--activity_main strings listed here-->
+    <string name="presets">Select a Preset</string>
+    <string name="preset_button_highCarbs">60/25/15\nHigh Carbs</string>
+    <string name="preset_button_moderate">50/30/20\nModerate</string>
+    <string name="preset_button_lowCarbs">20/40/40\nLow Carbs</string>
+    <string name="customize">Or Customize...</string>
+    <string name="carbohydrates_label">Carbohydrates:</string>
+    <string name="protein_label">Proteins:</string>
+    <string name="fat_label">Fats:</string>
+    <string name="initialize_seekbar_percent">0%</string>
+    <string name="daily_calories_text">Daily Calories:</string>
+    <string name="dont_know_button">Don\'t Know?</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="zero">0</string>
+
+    <!--find_calories.xml strings listed here-->
+    <string name="imperial_US">Imperial (US)</string>
+    <string name="gender_label">Gender</string>
+    <string name="age_label">Age (Years)</string>
+    <string name="weight_label_us">Weight (lbs)</string>
+    <string name="weight_label_metric">Weight (kgs)</string>
+    <string name="height_label_us">Height (in.)</string>
+    <string name="height_label_metric">Height (cm.)</string>
+    <string name="activity_level_label">Activity Level</string>
+    <string name="your_goals_label">You want to...</string>
+    <string name="recommended_label">Recommended Calories</string>
+    <string name="use_this_value_button">Use this\n value</string>
+    <string name="minimum_calc">(Only calculates a minimum of 1000 calories.)</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_level_array">
+        <item>Little to no exercise</item>
+        <item>Light exercise (1–3 days per week)</item>
+        <item>Moderate exercise (3–5 days per week)</item>
+        <item>Heavy exercise (6–7 days per week)</item>
+        <item>Very heavy exercise (twice per day, heavy)</item>
+    </string-array>
+    <string-array name="your_goals_array">
+        <item>Lose 1 Pound/Kg per week</item>
+        <item>Lose .5 Pound/Kg per week</item>
+        <item>Maintenence Calories</item>
+        <item>Gain .5 Pound/Kg per week</item>
+        <item>Gain 1 Pound/Kg per week</item>
+    </string-array>
+
+
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_age">Age</string>
+    <string name="lbl_weight">Weight (lb)</string>
+    <string name="lbl_height">Height (in)</string>
+    <string name="maintain_weight">Maintain</string>
+    <string name="moderately_active">Moderate</string>
+    <string name="lbl_activity">Activity Level</string>
+    <string name="lbl_goal">Weight goal</string>
+    <string name="lbl_bmr">BMR</string>
+    <string name="def_bmr">Basal Metabolic Rate</string>
+    <string name="lbl_tdee">TDEE</string>
+    <string name="def_tdee">Total Daily Energy Expenditure</string>
+    <string name="lbl_total_calories">Target Daily Calories</string>
+    <string name="lbl_chg_calories">Daily Caloric Change</string>
+    <string name="lbl_calculate">Calculate</string>
+    <string name="lbl_about">About</string>
+    <string name="lbl_additional">Additional calories</string>
+    <string name="lbl_duration">Duration (min)</string>
+    <string name="lbl_add">Add</string>
+    <string name="key_preferences">cic_preferences</string>
+    <string name="key_gender">gender</string>
+    <string name="key_age">age</string>
+    <string name="key_weight">weight</string>
+    <string name="key_height">height</string>
+    <string name="key_goal">goal</string>
+    <string name="key_activity">activity</string>
+    <string name="key_weight_unit">weight_unit</string>
+    <string name="key_height_unit">height_unit</string>
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Delete Account</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Fitness Edge</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Fitness Edge now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Delete</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <!-- Body stuff -->
+    <string name="body_des">Many people think that “body type” just describes the way someone looks. In fact, your body type can also provide information about how you respond to food intake and about your hormonal and sympathetic nervous system (SNS) characteristics.Physique characteristics can thus be linked to metabolic differences between individuals. Once someone establishes their body type, they can then adjust nutrient intake to maximize body composition and health related goals.
+    </string>
+
+   <string name="boy_d2">Ectomorph: Lean and long, with difficulty building muscle. Endomorph: Big, high body fat, often pear-shaped, with a high tendency to store body fat. Mesomorph: Muscular and well-built, with a high metabolism and responsive muscle cells.
+   </string>
+    <string name="ect_in" formatted="false">Ectomorphs are thin individuals characterized by smaller bone structures and thinner limbs. Think of a typical endurance athlete. They tend to be thyroid and SNS dominant with either a higher output or higher sensitivity to catecholamines like epinephrine and norepinephrine. This profile is linked to a fast metabolic rate and a high carbohydrate tolerance. This group generally does best with more carbohydrates in the diet,along with a moderate protein and lower fat intake.A nutrient distribution for this body type might be around 55% carbs, 25% protein, and 20% fat.</string>
+    <string name="mes_in" formatted="false">Mesomorphs have a medium sized bone structure and athletic body, and if they’re active, they usually have a considerable amount of lean mass. Many explosive athletes like wrestlers and gymnasts fit these criteria. Mesomorphs tend to be testosterone and growth hormone dominant. This profile leads to a predisposition for muscle gain and the maintenance of a lower body fat. Mesomorphs typically do best on a mixed diet, consisting of balanced carbohydrates, proteins, and fats. A macronutrient split of 40% carbohydrate, 30% protein, and 30% fat can work well.</string>
+    <string name="end_in" formatted="false">Endomorphs have a larger bone structure with higher amounts of total body mass and fat mass. Football lineman and powerlifters are frequently endomorphs. They tend to be naturally less active. Where the ectomorphs tend to burn off excess calories with near constant movement, excess calories in endomorphs do not seem to cause that same increase in expenditure. This means that excess calories are more likely to be stored as fat. This profile leads to a greater propensity for energy storage, including both lean mass and fat mass. This can also mean a lower carbohydrate tolerance. Endomorphs typically do best on a higher fat and protein intake with carbohydrate intake being controlled and properly timed (e.g., after exercise). So that’s what we recommend: more fat and protein, less carbohydrate.
+        A nutrient distribution for this body type might be around 25% carbs, 35% protein, and 40% fat. Again, no math gymnastics. Just think higher fats and protein, lower carbs.</string>
+    <string name="reg">We provide complete solution to your problem: Weight loss, Weight Gain, General fitness, De-stress, Sports conditioning etc. Our one mission is to motivate people to become and stay active and realize their full potential.</string>
+    >
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!-- Workout names -->
+    <string name="jumping_jacks">Jumping jacks</string>
+    <string name="wall_sits">Wall sits</string>
+    <string name="push_ups">Push-ups</string>
+    <string name="abdominal_crunches">Abdominal crunches</string>
+    <string name="step_ups_onto_a_chair">Step-ups onto a chair</string>
+    <string name="squats">Squats</string>
+    <string name="triceps_dips_on_a_chair">Triceps dips on a chair</string>
+    <string name="planks">Planks</string>
+    <string name="high_knees_running_in_place">High knees running in place</string>
+    <string name="lunges">Lunges</string>
+    <string name="push_ups_and_rotations">Push-ups and rotations</string>
+    <string name="side_planks">Side planks</string>
+
+    <!-- Workout description -->
+    <string name="jumping_jacks_desc">Start with your feet together and arms at your sides. Slightly bend your knees and jump straight up. As you are jumping kick your legs out to shoulder width and bring your hands over your head to form a "star".</string>
+    <string name="wall_sits_desc">Stand straight with your back against the wall with your legs shoulder width apart and a little away from the wall. Lower your hips until your legs are at right angles and then stand back up.</string>
+    <string name="push_ups_desc">Lay flat on your stomach with your palms flat on the floor approximately shoulder width apart. Push up on your hands until your arms are straight. Lower yourself until your arms are at 90-degrees. Repeat.</string>
+    <string name="abdominal_crunches_desc">A crunch begins with lying face up on the floor with knees bent. The movement begins by curling the shoulders towards the pelvis. The hands can be behind or beside the neck or crossed over the chest.</string>
+    <string name="step_ups_onto_a_chair_desc">Stand in front of the step, with your feet about shoulder width apart. Step up onto the step with one foot, followed by the other. Pause and then step off with the opposite foot. Repeat.</string>
+    <string name="squats_desc">Stand with your feet slightly wider than your hips and your toes pointed slightly out. Keeping your back straight lower your hips and bend your knees until you are parallel with the floor. Reverse until you are back in the original standing position.</string>
+    <string name="triceps_dips_on_a_chair_desc">Sit with the heels of your hands on the edge of a sturdy chair seat. Slide your bottom off the seat, and support your weight with your hands. Bend your elbows back, and slowly lower your butt toward the floor while keeping your elbows tucked in.</string>
+    <string name="planks_desc">Lay on your stomach and bend your elbows 90-degrees and rest your weight on your forearms. Your elbows should be directly beneath your shoulders, and your body should form a straight line from your head to your feet. Hold the position.</string>
+    <string name="high_knees_running_in_place_desc">Run on the spot lifting your knees as high as possible, swing your arms as if you were running normally.</string>
+    <string name="lunges_desc">Keep your upper body straight, with your shoulders back and relaxed and chin up. Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle. Keep the weight in your heels as you push back up to the starting position.</string>
+    <string name="push_ups_and_rotations_desc">Perform a push-up, at top rotate the body into side-plank position with one arm on ground and other extended toward ceiling. Rotate back to top of push-up position. Perform push-up and repeat rotation to opposite side.</string>
+    <string name="side_planks_desc">Lay on your stomach and bend your elbows 90-degrees and rest your weight on your forearms (or hand if you prefer). Your elbows should be directly beneath your shoulders. Rotate 90-degrees so all your weight in on one forearm. Hold the position.</string>
+
+    <!-- Workout video -->
+    <string name="jumping_jacks_video">c4DAnQ6DtF8</string>
+    <string name="wall_sits_video">y-wV4Venusw</string>
+    <string name="push_ups_video">Eh00_rniF8E</string>
+    <string name="abdominal_crunches_video">SHWgBc4Ahc8</string>
+    <string name="step_ups_onto_a_chair_video">u-QwO-Bbaro</string>
+    <string name="squats_video">p3g4wAsu0R4</string>
+    <string name="triceps_dips_on_a_chair_video">nx9gVDCnT84</string>
+    <string name="planks_video">pSHjTRCQxIw</string>
+    <string name="high_knees_running_in_place_video">kMFv3Alg-Gc</string>
+    <string name="lunges_video">m_RYVmpWDq4</string>
+    <string name="push_ups_and_rotations_video">uGqZONsnZa8</string>
+    <string name="side_planks_video">NXr4Fw8q60o</string>
+
+    <string-array name="workout_names">
+        <item>@string/jumping_jacks</item>
+        <item>@string/wall_sits</item>
+        <item>@string/push_ups</item>
+        <item>@string/abdominal_crunches</item>
+        <item>@string/step_ups_onto_a_chair</item>
+        <item>@string/squats</item>
+        <item>@string/triceps_dips_on_a_chair</item>
+        <item>@string/planks</item>
+        <item>@string/high_knees_running_in_place</item>
+        <item>@string/lunges</item>
+        <item>@string/push_ups_and_rotations</item>
+        <item>@string/side_planks</item>
+    </string-array>
+
+    <string-array name="workout_descriptions">
+        <item>@string/jumping_jacks_desc</item>
+        <item>@string/wall_sits_desc</item>
+        <item>@string/push_ups_desc</item>
+        <item>@string/abdominal_crunches_desc</item>
+        <item>@string/step_ups_onto_a_chair_desc</item>
+        <item>@string/squats_desc</item>
+        <item>@string/triceps_dips_on_a_chair_desc</item>
+        <item>@string/planks_desc</item>
+        <item>@string/high_knees_running_in_place_desc</item>
+        <item>@string/lunges_desc</item>
+        <item>@string/push_ups_and_rotations_desc</item>
+        <item>@string/side_planks_desc</item>
+    </string-array>
+
+    <string-array name="workout_videos">
+        <item>@string/jumping_jacks_video</item>
+        <item>@string/wall_sits_video</item>
+        <item>@string/push_ups_video</item>
+        <item>@string/abdominal_crunches_video</item>
+        <item>@string/step_ups_onto_a_chair_video</item>
+        <item>@string/squats_video</item>
+        <item>@string/triceps_dips_on_a_chair_video</item>
+        <item>@string/planks_video</item>
+        <item>@string/high_knees_running_in_place_video</item>
+        <item>@string/lunges_video</item>
+        <item>@string/push_ups_and_rotations_video</item>
+        <item>@string/side_planks_video</item>
+    </string-array>
+
+
+</resources>

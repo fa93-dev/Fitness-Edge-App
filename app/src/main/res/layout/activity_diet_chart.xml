@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diet_chart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/bac_scroll"
+    tools:context="com.example.faraz.navigationapp.DietChart">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+            android:text="What is eating for your body type?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textSize="26sp"
+                android:fontFamily="sans-serif"
+            android:textColor="@color/label_text_dark" />
+
+            <TextView
+                android:text="@string/body_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                app:srcCompat="@drawable/bofs"
+                android:id="@+id/imageView2"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true" />
+
+            <TextView
+                android:text="Types of Body -"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textSize="26sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold"
+                android:textColor="@color/label_text_dark" />
+
+
+            <Button
+                android:text="Ectomorph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ect1"
+                android:onClick="ect_b"
+                android:elevation="2dp"
+                android:drawableLeft="@drawable/flex"
+                android:theme="@style/MyButton"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:text="Endomorph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/end1"
+                android:onClick="end_b"
+                android:textStyle="normal|bold"
+                android:drawableLeft="@drawable/flex"
+                android:fontFamily="sans-serif-condensed"
+                android:elevation="2dp"
+                android:textSize="20sp"
+                android:theme="@style/MyButton"
+                android:textAlignment="viewStart" />
+
+            <Button
+                android:text="Mesomorph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mes1"
+                android:elevation="2dp"
+                android:textStyle="normal|bold"
+                android:drawableLeft="@drawable/flex"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="mes_b"
+                android:textSize="20sp"
+                android:theme="@style/MyButton"
+                android:textAlignment="textStart" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

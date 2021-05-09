@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@mipmap/home1"
+            android:title="Home" />
+        <item android:id="@+id/steps"
+            android:icon="@mipmap/walking"
+            android:title="Count Your Steps" />
+        <item android:id="@+id/cal_log"
+            android:icon="@mipmap/logger"
+            android:title="Calories Log" />
+        <item android:id="@+id/exe"
+            android:icon="@mipmap/exrc"
+            android:title="Exercises" />
+        <item android:id="@+id/act"
+            android:icon="@mipmap/calo"
+            android:title="Calculate Calories " />
+        <item android:id="@+id/calc"
+            android:icon="@mipmap/scale"
+            android:title="Health Calculators" />
+        <item android:id="@+id/BodInfo"
+            android:icon="@mipmap/info"
+            android:title="Body Informations" />
+        <item android:id="@+id/prof"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Account" />
+        <item android:id="@+id/con_us"
+            android:icon="@mipmap/contact"
+            android:title="Contact Us" />
+        <item android:id="@+id/absus"
+            android:icon="@mipmap/abtus"
+            android:title="About Us" />
+        <item android:id="@+id/supus"
+            android:icon="@drawable/supportus"
+            android:title="Support Us" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView60"
+        android:layout_toEndOf="@+id/textView60"
+        android:textSize="22sp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textBF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView61"
+        android:layout_toEndOf="@+id/textView61"
+        android:textSize="22sp"
+        android:layout_marginStart="7dp"
+        android:id="@+id/textBFP" />
+
+    <EditText
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginStart="12dp"
+        android:id="@+id/wmal"
+        android:hint="Kgs"
+        android:layout_alignBaseline="@+id/textView58"
+        android:layout_alignBottom="@+id/textView58"
+        android:layout_toEndOf="@+id/textView58"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:text="Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView58"
+        android:textSize="22sp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Waist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView59"
+        android:textSize="22sp"
+        android:layout_below="@+id/wmal"
+        android:layout_toStartOf="@+id/wmal" />
+
+    <EditText
+        android:layout_width="70sp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/wmal1"
+        android:hint="Inches"
+        android:layout_alignBaseline="@+id/textView59"
+        android:layout_alignBottom="@+id/textView59"
+        android:layout_alignStart="@+id/wmal"
+        android:selectAllOnFocus="true" />
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="140sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/fat1"
+        android:theme="@style/FBButton"
+        android:layout_marginEnd="23dp"
+        android:layout_below="@+id/wmal1"
+        android:layout_alignEnd="@+id/wmal1"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:text="Your Body Fat is:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView60"
+        android:textSize="22sp"
+        android:layout_below="@+id/fat1"
+        android:layout_alignEnd="@+id/wmal1" />
+
+    <TextView
+        android:text="Body Fat Percentage is:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView61"
+        android:textSize="22sp"
+        android:layout_below="@+id/textView60"
+        android:layout_alignStart="@+id/textView60" />
+</RelativeLayout>

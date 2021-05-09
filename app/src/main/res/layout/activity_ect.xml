@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faraz.navigationapp.Body.ect">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Ectomorph:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:fontFamily="sans-serif"
+            android:textSize="28sp"
+            android:textColor="@color/label_back_dark"
+            android:textStyle="normal|bold"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:text="Lean and long, with difficulty building muscle."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="20sp"
+            android:typeface="normal"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:text="@string/ect_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:fontFamily="sans-serif"
+            android:maxLines="5"
+            android:typeface="normal"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/show1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView14"
+            android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/show1"
+            android:background="#000" />
+
+        <ImageButton
+            android:id="@+id/hide1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView14"
+            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:clickable="true"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            app:srcCompat="@drawable/ect_im"
+            android:id="@+id/ect1"
+            android:scaleType="fitStart" />
+
+        <TextView
+            android:text="Portions for ectomorph men"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textAlignment="viewStart"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="• 2 palms of protein dense foods at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView36" />
+
+        <TextView
+            android:text="• 2 fists of vegetables at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView43" />
+
+        <TextView
+            android:text="• 3 cupped handfuls of carb dense foods at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView42" />
+
+        <TextView
+            android:text="• 1 thumb of fat dense foods at each meal."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView44" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            app:srcCompat="@drawable/ect_im1"
+            android:id="@+id/ect2"
+            android:scaleType="fitStart"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:text="• Portions for ectomorph women."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:textAlignment="viewStart"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="• 1 palm of protein dense foods at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView45" />
+
+        <TextView
+            android:text="• 1 fist of vegetables at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView46" />
+
+        <TextView
+            android:text="• 2 cupped handfuls of carb dense foods at each meal;"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView47"
+            android:textSize="20sp" />
+
+        <TextView
+            android:text="• 0.5 thumb of fat dense foods at each meal."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="normal"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:id="@+id/textView48" />
+    </LinearLayout>
+</ScrollView>

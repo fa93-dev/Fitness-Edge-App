@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498DB"
+    tools:context="com.example.faraz.navigationapp.finalcalc">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_act_final"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3498DB"
+    tools:context="com.example.faraz.navigationapp.finalcalc">
+
+    <Button
+        android:text="BMI"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bmibut"
+        android:theme="@style/CountButton"
+        android:onClick="fact1"
+        android:layout_width="160sp"
+        android:layout_height="120sp"
+        android:elevation="3dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Macro Nutrient"
+        android:layout_width="160sp"
+        android:id="@+id/nMbut"
+        android:onClick="fact3"
+        android:layout_below="@+id/bmrbut"
+        android:theme="@style/CountButton"
+        android:layout_alignParentStart="true"
+        android:layout_height="120sp"
+        android:elevation="3dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="BMR"
+        android:layout_width="160sp"
+        android:id="@+id/bmrbut"
+        android:onClick="fact2"
+        android:theme="@style/CountButton"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/bmibut"
+        android:layout_height="120sp"
+        android:elevation="3dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Calorie Intake"
+        android:layout_width="160sp"
+        android:id="@+id/calbut"
+        android:onClick="fact4"
+        android:theme="@style/CountButton"
+        android:layout_below="@+id/bmrbut"
+        android:layout_toEndOf="@+id/bmibut"
+        android:layout_height="120sp"
+        android:elevation="3dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Calculate Fat Here:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nMbut"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView55"
+        android:textSize="24sp"
+        android:textColor="@color/accent"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="For Females"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:id="@+id/button3"
+        android:theme="@style/CountButton"
+        android:layout_below="@+id/textView55"
+        android:layout_toStartOf="@+id/button4"
+        android:textSize="18sp"
+        android:elevation="3dp"
+        android:onClick="femfat" />
+
+    <Button
+        android:text="For Males"
+        android:layout_width="160sp"
+        android:layout_height="80sp"
+        android:id="@+id/button4"
+        android:theme="@style/CountButton"
+        android:layout_below="@+id/textView55"
+        android:layout_toEndOf="@+id/nMbut"
+        android:textSize="18sp"
+        android:elevation="3dp"
+        android:onClick="malefat" />
+
+    <TextView
+        android:text="1.Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/textView55"
+        android:id="@+id/textView67"
+        android:textSize="18sp"
+        android:textColor="@color/accent"/>
+
+    <TextView
+        android:text="2.Basal metabolic rate (BMR) is the amount of energy expended while at rest in a neutrally temperate environment, in the post-absorptive state."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView67"
+        android:layout_alignStart="@+id/textView67"
+        android:layout_marginTop="14dp"
+        android:textSize="18sp"
+        android:textColor="@color/accent"
+        android:id="@+id/textView69" />
+
+    <TextView
+        android:text="4.An average woman needs to eat about 2000 calories per day to maintain, and 1500 calories to lose one pound of weight per week. An average man needs 2500 calories to maintain, and 2000 to lose one pound of weight per week. However, this depends on numerous factors."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView70"
+        android:textColor="@color/accent"
+        android:id="@+id/textView71"
+        android:layout_alignStart="@+id/textView70" />
+
+    <TextView
+        android:text="3.Nutrients are environmental substances used for energy, growth, and bodily functions by organisms. Depending on the nutrient, these substances are needed in small amounts or larger amounts. Those that are needed in large amounts are called macronutrients.  There are three macronutrients required by humans: carbohydrates (sugar), lipids (fats), and proteins. Each of these macronutrients provides energy in the form of calories."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView70"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/accent"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView69"
+        android:layout_alignStart="@+id/textView69" />
+</RelativeLayout>
+</ScrollView>

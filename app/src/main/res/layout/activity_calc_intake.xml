@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calc_intake"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:textSize="16dp"
+    tools:context="com.example.faraz.navigationapp.HealthCalc.CalcIntake">
+
+
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" >
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:padding="12dip"
+                    android:stretchColumns="0">
+                    <TableRow>
+                        <TextView android:text="@string/lbl_gender" />
+                        <Button android:id="@+id/btn_gender"
+                            android:textColor="#FFFFFF"
+                            android:theme="@style/CountButton1"
+                            android:text="@string/male" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_age" />
+                        <EditText android:id="@+id/fld_age"
+                            android:inputType="number"
+                            android:hint="0"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <Button android:id="@+id/btn_weight"
+                            android:textColor="#FFFFFF"
+                            android:theme="@style/CountButton1"
+                            android:text="@string/lbl_weight" />
+                        <EditText android:id="@+id/fld_weight"
+                            android:inputType="number"
+                            android:hint="0"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <Button android:id="@+id/btn_height"
+                            android:theme="@style/CountButton1"
+                            android:textColor="#FFFFFF"
+                            android:text="@string/lbl_height" />
+                        <EditText android:id="@+id/fld_height"
+                            android:inputType="number"
+                            android:hint="0"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_activity" />
+                        <Button android:id="@+id/btn_activity"
+                            android:textColor="#FFFFFF"
+                            android:theme="@style/CountButton1"
+                            android:text="@string/moderately_active" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_additional" />
+                        <Button android:id="@+id/btn_additional"
+                            android:textColor="#FFFFFF"
+                            android:theme="@style/CountButton1"
+                            android:text="0"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_goal" />
+                        <Button android:id="@+id/btn_goal"
+                            android:textColor="#FFFFFF"
+                            android:theme="@style/CountButton1"
+                            android:text="@string/maintain_weight" />
+                    </TableRow>
+                    <TableRow>
+                        <Button android:text="@string/lbl_bmr"
+                            android:theme="@style/CountButton1"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/btn_bmr" />
+                        <EditText android:id="@+id/fld_bmr"
+                            android:text="0"
+                            android:editable="false"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <Button android:text="@string/lbl_tdee"
+                            android:theme="@style/CountButton1"
+                             android:id="@+id/btn_tdee"
+                            android:textColor="#FFFFFF" />
+                        <EditText android:id="@+id/fld_tdee"
+                            android:text="0"
+                            android:editable="false"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_total_calories" />
+                        <EditText android:id="@+id/fld_total_calories"
+                            android:text="0"
+                            android:editable="false"
+                            android:gravity="right" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="@string/lbl_chg_calories" />
+                        <EditText android:id="@+id/fld_chg_calories"
+                            android:text="0"
+                            android:editable="false"
+                            android:gravity="right" />
+                    </TableRow>
+                </TableLayout>
+                <Button android:id="@+id/btn_calculate" android:text="@string/lbl_calculate"
+                    android:theme="@style/CountButton1"
+                    android:textColor="#FFFFFF"
+                    android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>

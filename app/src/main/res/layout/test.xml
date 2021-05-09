@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.github.florent37.arclayout.ArcLayout
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:elevation="10dip"
+        app:arc_cropDirection="cropOutside"
+        app:arc_position="bottom"
+        app:arc_height="50dp"
+        >
+
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/screenblur"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/appicon"
+                />
+
+        </FrameLayout>
+
+    </com.github.florent37.arclayout.ArcLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="240dp"
+        app:elevation="15dp"
+        app:fabSize="normal"
+        android:id="@+id/fab"
+        android:layout_gravity="bottom|end"
+        app:backgroundTint="#3498DB"
+        app:pressedTranslationZ="12dp"
+        android:src="@mipmap/feed" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/fab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp">
+
+    <RelativeLayout
+        android:id="@+id/llout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/diagonalLayout"
+        android:layout_alignParentStart="true">
+
+
+
+
+        <Space android:layout_height="20sp"
+            android:layout_width="500sp" />
+
+
+        <TextView
+            android:text="Welcome To Fitness Edge"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/diagonalLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"
+            android:layout_width="400dp"
+            tools:ignore="NotSibling" />
+
+        <TextView
+            android:text="Our Process"
+            android:id="@+id/textView4"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:text="3. Improve your Performance"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/text3"
+            android:textSize="22dp"
+            android:layout_below="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="1. Analyse your Goal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="7dp"
+            android:id="@+id/textView7"
+            android:textSize="22dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="4. Achieve your Destiny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/text4"
+            android:textSize="22dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/text3"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="2. Work Hard on it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:id="@+id/text2"
+            android:textSize="22dp"
+            android:layout_marginTop="12dp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
